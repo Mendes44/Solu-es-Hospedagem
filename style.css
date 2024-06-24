@@ -1,8 +1,21 @@
+/*CSS Universais + Paletas de Cores*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --white: #fff;
+    --light-gray: #f1f3f7;
+    --lighter-gray: #f6f6f6;
+    --medium-gray: #a89f9f;
+    --dark-gray: #233032;
+    --blue: #2f86d6;
+    --gray: #a8a4a4;
+    /**/
+  }
 
 
 /*Tabela*/
@@ -19,5 +32,42 @@
     line-height: 32px;
     position: relative;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: var();
+}
+
+.tabela-cabecalho {
+    padding: 10px;
+    line-height: 20px;
+
+    background-color: var(--light-gray);
+    position: relative;
+}
+
+.tabela-cabecalho img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Contato + Rodape*/
+
+.container-contato {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 0;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: var(--medium-gray);
+
+}
+
+.texto-destaque {
+    font-weight: bold;
 }
