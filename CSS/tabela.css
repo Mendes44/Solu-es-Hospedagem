@@ -1,0 +1,173 @@
+/*Efeitos Globais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limite-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+:root {
+    --white: #fff;
+    --light-gray: #f1f3f7;
+    --lighter-gray: #f6f6f6;
+    --medium-gray: #a89f9f;
+    --dark-gray: #233032;
+    --blue: #2f86d6;
+    --gray: #a8a4a4;   
+    /**/
+  }
+
+/*Topo da Pagina*/
+.topo {
+    background-color: var(--blue)
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo p {
+    font-weight: 600;
+    color: var(--white);
+}
+
+.topo-links {
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.topo-links a:hover{
+    color: var(--dark-gray);
+}
+
+/*Conteudo Principal - Tabela*/
+.conteudo-principal {
+    padding: 100px 0;
+}
+
+.conteudo-principal table {
+    margin: auto;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
+
+.celula-cabecalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--light-gray);
+    border-right: 1px solid var(--light-gray);
+    background-color: var(--light-gray);
+}
+
+.celula-cabecalho h2 {
+    font-size: 36px;
+}
+
+.celula-cabecalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--light-gray);
+    border-right: 1px solid var(--light-gray);
+}
+
+.primeira-celula {
+    background-color: var(--light-gray);
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    border-radius: 100px;    
+    background-color: var(--blue);
+}
+
+/*Seção Rodapé*/
+.rodape {
+    padding-top: 70px;
+    background-color: var(--blue);
+}
+
+.rodape-logo {
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+
+.rodape-logo img {
+    width: 80px;
+}
+
+.rodape-logo div {
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+
+.rodape-logo p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.paragrafo-rodape {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+    color: var(--white);
+}
+
+.container-copyrigth {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--white);
+}
+
+span {
+    color: var(--blue);
+}
